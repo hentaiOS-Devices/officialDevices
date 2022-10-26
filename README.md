@@ -1,5 +1,6 @@
 ![Official Device](https://cunnyexpress.hentaios.com/assetsbucket/officialDevice.png)
-# Official Device Database
+
+# hentaiOS Official Devices Database
 ## Swiggity Swooty, I am inside your walls.
 
 This is hentaiOS Official Devices database, it is a database, You can become an entry inside it. I hope you are not startled by the YAML file.
