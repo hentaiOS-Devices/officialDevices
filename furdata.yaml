@@ -1,0 +1,23 @@
+devices:
+  # Do NOT remove this entry.
+  - device: fivenightsatfreddys
+    family: impostoressuspectos
+  - device: lmi
+    family: gourami
+  - device: apollo
+    family: gourami
+  - device: alioth
+    family: gourami
+  - device: munch
+    family: gourami
+  - device: bluejay
+    family: brooklyn
+  - device: oriole
+    family: brooklyn
+  - device: raven
+    family: brooklyn
+furries:
+  - family: gourami
+    names: Raphielscape, Dyneteve, OC'D, obsecenlyvague, RealAkito
+  - family: brooklyn
+    names: Dyneteve, Lunarixus

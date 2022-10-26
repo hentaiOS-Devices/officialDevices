@@ -1,0 +1,17 @@
+name: Verify YAML in Pull Requests
+
+on:
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  verify-pull-request:
+    name: Verify YAML in Pull Requests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Verify YAML in Pull Requests
+        uses: mikefarah/yq@master
+        with:
+          cmd: yq --exit-status 'tag == "!!map" or tag== "!!seq"' furdata.yaml > /dev/null
