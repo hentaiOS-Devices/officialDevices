@@ -5,7 +5,7 @@ on:
     branches:
       - master
     paths:
-      - changelog
+      - 'changelog/**'
 
 jobs:
   generate-html-changelogs:
