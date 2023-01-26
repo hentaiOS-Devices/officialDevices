@@ -13,10 +13,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: ZacJW/markdown-html-action@1.1.0
+      - uses: baileyjm02/markdown-to-pdf@v1
         with:
-          input_files: '[["changelog/*.md"]'
-          output_files: '["changelog"]'
+          input_dir: changelog
+          output_dir: changelog
+          build_html: true
+          build_pdf: false
       - name: Commit results
         run: |
           git add changelog
