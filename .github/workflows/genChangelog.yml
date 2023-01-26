@@ -1,0 +1,24 @@
+name: Generate HTML changelogs
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - changelog
+
+jobs:
+  generate-html-changelogs:
+    name: Generate HTML Changelog from Markdown
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: ZacJW/markdown-html-action@1.1.0
+        with:
+          input_files: '[["changelog/*.md"]'
+          output_files: '["changelog"]'
+      - name: Commit results
+        run: |
+          git add changelog
+          git commit -m 'Sync Changelogs' || echo "No changes to commit"
+          git push origin || echo "No changes to commit"

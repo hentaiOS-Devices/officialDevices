@@ -15,3 +15,4 @@ jobs:
         uses: mikefarah/yq@master
         with:
           cmd: yq --exit-status 'tag == "!!map" or tag== "!!seq"' furdata.yaml > /dev/null
+
