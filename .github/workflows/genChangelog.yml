@@ -16,6 +16,7 @@ jobs:
       - uses: baileyjm02/markdown-to-pdf@v1
         with:
           theme: changelog/styling/markdown.css
+          extend_default_theme: false
           input_dir: changelog
           output_dir: changelog/
           build_html: true
