@@ -6,6 +6,9 @@ devices:
     - apollo
     - alioth
     - munch
+  crosshatch:
+    - crosshatch
+    - blueline
   brooklyn:
     - bluejay
     - oriole
@@ -26,6 +29,10 @@ furries:
       - Raphielscape
       - Dyneteve
       - obsecenlyvague
+  crosshatch:
+    brand: Google
+    furs:
+      - mattDev0
   brooklyn:
     brand: Google
     furs:
