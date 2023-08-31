@@ -1,56 +1,80 @@
+# This two field is reserved for metadata
+# DO NOT CHANGE
+version: 1
+data_class: AD:LANNELIV:xx/eo
+
+# Devices
+# This section currently accepts the following fields:
+#   name: codename  (string)
+#   family: family codename   (string)
+#   brand_override: actual brand name of the device (string)
+#   marketname_override: actual market name (codename) of the device (string)
 devices:
-  fivenightsatfreddys:
-    - impostressuspectos
-  gourami:
-    - lmi
-    - apollo
-    - alioth
-    - munch
-  crosshatch:
-    - crosshatch
-    - blueline
-  brooklyn:
-    - bluejay
-    - oriole
-    - raven
-  amogus:
-    - amogus
-  bouquet:
-    - whyred
-    - tulip
-  miatoll:
-    - miatoll
-  parker:
-    - parker
+  # Gourami
+  - name: lmi
+    family: gourami
+  - name: apollo
+    family: gourami
+  - name: alioth
+    family: gourami
+  - name: munch
+    brand_override: POCO
+    family: gourami
+  # Crosshatch
+  - name: crosshatch
+    family: crosshatch
+  - name: blueline
+    family: crosshatch
+  # Brooklyn
+  - name: bluejay
+    family: brooklyn
+  - name: oriole
+    family: brooklyn
+  - name: raven
+    family: brooklyn
+  # Amogus
+  - name: amogus
+    family: amogus
+  # Bouquet
+  - name: whyred
+    family: bouquet
+  - name: tulip
+    family: bouquet
+  # Miatoll
+  - name: miatoll
+    family: miatoll
+  # Parker
+  - name: parker
+    family: parker
+# Furries
+# This section currently accepts the following fields:
+#   family: family codename  (string)
+#   brand: global brand for a family (string)
+#   furs: list for furries for the family (string array)
 furries:
-  gourami:
+  - family: gourami
     brand: Xiaomi
     furs:
       - Raphielscape
       - Dyneteve
       - obsecenlyvague
-  crosshatch:
+  - family: crosshatch
     brand: Google
     furs:
       - mattDev0
-  brooklyn:
-    brand: Google
-    furs:
-      - Dyneteve
-      - Lunarixus
-  amogus:
+  - family: amogus
     brand: Motorola
     furs:
       - Electimon
-  bouquet:
+  - family: bouquet
     brand: Xiaomi
     furs:
       - Reinazhard
-  miatoll:
+  - family: miatoll
     brand: Xiaomi
     furs:
       - mi33rx
-  parker:
+  - family: parker
     brand: Motorola
     furs:
       - Hasaber8
