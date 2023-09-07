@@ -1,0 +1,9 @@
+# This two field is reserved for metadata
+# Vine boom pumps me up.
+# DO NOT EDIT.
+version: 1
+data_class: INVIERNO:aa/xo
+
+build_rel:
+  - tag: UP1A.230905.019
+    type: ursamoon-early-dogfood

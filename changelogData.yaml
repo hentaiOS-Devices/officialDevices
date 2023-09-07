@@ -1,5 +1,5 @@
 # This two field is reserved for metadata
-# DO NOT CHANGE
+# DO NOT EDIT.
 version: 1
 data_class: AD:LANNELIV:xx/eo
 
