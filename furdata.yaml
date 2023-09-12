@@ -32,6 +32,13 @@ devices:
     family: brooklyn
   - name: raven
     family: brooklyn
+  # Chelsea
+  - name: cheetah
+    family: chelsea
+  - name: panther
+    family: chelsea
+  - name: lynx
+    family: chelsea
   # Amogus
   - name: amogus
     family: amogus
@@ -78,3 +85,13 @@ furries:
     brand: Motorola
     furs:
       - Hasaber8
+  - family: brooklyn
+    brand: Google
+    furs:
+      - Dyneteve
+      - Lunarixus
+  - family: chelsea
+    brand: Google
+    furs:
+      - Dyneteve
+      - Lunarixus
