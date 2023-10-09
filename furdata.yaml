@@ -14,11 +14,11 @@ devices:
   - name: lmi
     family: gourami
   - name: apollo
+    brand_override: Xiaomi
     family: gourami
   - name: alioth
     family: gourami
   - name: munch
-    brand_override: POCO
     family: gourami
   # Crosshatch
   - name: crosshatch
@@ -60,7 +60,7 @@ devices:
 #   furs: list for furries for the family (string array)
 furries:
   - family: gourami
-    brand: Xiaomi
+    brand: POCO
     furs:
       - Raphielscape
       - Dyneteve
