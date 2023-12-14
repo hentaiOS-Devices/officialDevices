@@ -9,3 +9,5 @@ build_rel:
     type: ursamoon-early-dogfood
   - tag: UP1A.231005.007
     type: ursamoon
+  - tag: UQ1A.231205.015
+    type: bluecross
