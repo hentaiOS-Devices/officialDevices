@@ -53,6 +53,9 @@ devices:
   # Parker
   - name: parker
     family: parker
+  # Eqs
+  - name: eqs
+    family: eqs
 # Furries
 # This section currently accepts the following fields:
 #   family: family codename  (string)
@@ -85,6 +88,10 @@ furries:
     brand: Motorola
     furs:
       - Hasaber8
+  - family: eqs
+    brand: Motorola
+    furs:
+      - VerpaSRP
   - family: brooklyn
     brand: Google
     furs:
