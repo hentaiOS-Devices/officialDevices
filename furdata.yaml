@@ -50,12 +50,9 @@ devices:
   # Miatoll
   - name: miatoll
     family: miatoll
-  # Parker
-  - name: parker
-    family: parker
   # Eqs
   - name: eqs
-    family: eqs
+    family: hanif
 # Furries
 # This section currently accepts the following fields:
 #   family: family codename  (string)
@@ -84,11 +81,7 @@ furries:
     brand: Xiaomi
     furs:
       - mi33rx
-  - family: parker
-    brand: Motorola
-    furs:
-      - Hasaber8
-  - family: eqs
+  - family: hanif
     brand: Motorola
     furs:
       - VerpaSRP
