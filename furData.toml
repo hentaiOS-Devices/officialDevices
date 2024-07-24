@@ -1,0 +1,112 @@
+#:schema ./furDataSchema.json
+version = 1
+data_class = "AD:LANNELIV:xx/eo"
+
+[[devices]]
+name = "lmi"
+family = "gourami"
+
+[[devices]]
+name = "apollo"
+brand_override = "Xiaomi"
+family = "gourami"
+
+[[devices]]
+name = "alioth"
+family = "gourami"
+
+[[devices]]
+name = "munch"
+family = "gourami"
+
+[[devices]]
+name = "crosshatch"
+family = "crosshatch"
+
+[[devices]]
+name = "blueline"
+family = "crosshatch"
+
+[[devices]]
+name = "bluejay"
+family = "brooklyn"
+
+[[devices]]
+name = "oriole"
+family = "brooklyn"
+
+[[devices]]
+name = "raven"
+family = "brooklyn"
+
+[[devices]]
+name = "cheetah"
+family = "chelsea"
+
+[[devices]]
+name = "panther"
+family = "chelsea"
+
+[[devices]]
+name = "lynx"
+family = "chelsea"
+
+[[devices]]
+name = "amogus"
+family = "amogus"
+
+[[devices]]
+name = "whyred"
+family = "bouquet"
+
+[[devices]]
+name = "tulip"
+family = "bouquet"
+
+[[devices]]
+name = "miatoll"
+family = "miatoll"
+
+[[devices]]
+name = "eqs"
+family = "hanif"
+
+[[furries]]
+family = "gourami"
+brand = "POCO"
+furs = ["Raphielscape", "Dyneteve", "obsecenlyvague"]
+
+[[furries]]
+family = "crosshatch"
+brand = "Google"
+furs = ["mattDev0"]
+
+[[furries]]
+family = "amogus"
+brand = "Motorola"
+furs = ["Electimon"]
+
+[[furries]]
+family = "bouquet"
+brand = "Xiaomi"
+furs = ["Reinazhard"]
+
+[[furries]]
+family = "miatoll"
+brand = "Xiaomi"
+furs = ["mi33rx"]
+
+[[furries]]
+family = "hanif"
+brand = "Motorola"
+furs = ["VerpaSRP"]
+
+[[furries]]
+family = "brooklyn"
+brand = "Google"
+furs = ["Dyneteve", "Lunarixus"]
+
+[[furries]]
+family = "chelsea"
+brand = "Google"
+furs = ["Dyneteve", "Lunarixus"]
