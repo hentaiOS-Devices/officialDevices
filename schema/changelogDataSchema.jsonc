@@ -1,0 +1,78 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+        "metadata": {
+            "type": "object",
+            "properties": {
+                "version": {
+                    "type": "integer"
+                },
+                "data_class": {
+                    "type": "string"
+                },
+                "signoff": {
+                    "type": "string"
+                },
+                "arch": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "version",
+                "data_class",
+                "signoff",
+                "arch"
+            ],
+            "x-taplo": {
+                "hidden": true
+            },
+            "additionalProperties": false
+        },
+        "changelog": {
+            "type": "object",
+            "properties": {
+                "tag": {
+                    "type": "object",
+                    "additionalProperties": {
+                        "type": "object",
+                        "properties": {
+                            "file": {
+                                "type": "string"
+                            }
+                        },
+                        "required": [
+                            "file"
+                        ],
+                        "additionalProperties": false
+                    }
+                },
+                "device": {
+                    "type": "object",
+                    "additionalProperties": {
+                        "type": "object",
+                        "properties": {
+                            "file": {
+                                "type": "string"
+                            }
+                        },
+                        "required": [
+                            "file"
+                        ],
+                        "additionalProperties": false
+                    }
+                }
+            },
+            "required": [
+                "tag",
+                "device"
+            ],
+            "additionalProperties": false
+        }
+    },
+    "required": [
+        "metadata",
+        "changelog"
+    ],
+    "additionalProperties": false
+}

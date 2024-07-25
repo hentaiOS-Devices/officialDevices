@@ -1,0 +1,108 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+        "metadata": {
+            "type": "object",
+            "properties": {
+                "version": {
+                    "type": "integer"
+                },
+                "data_class": {
+                    "type": "string"
+                },
+                "signoff": {
+                    "type": "string"
+                },
+                "arch": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "version",
+                "data_class",
+                "signoff",
+                "arch"
+            ],
+            "x-taplo": {
+                "hidden": true
+            },
+            "additionalProperties": false
+        },
+        "devices": {
+            "type": "object",
+            "propertyNames": {
+                "type": "string"
+            },
+            "additionalProperties": {
+                "type": "object",
+                "properties": {
+                    "brand_override": {
+                        "type": "string",
+                        "x-taplo": {
+                            "main": "Override brand market name (Optional)"
+                        }
+                    },
+                    "codename_override": {
+                        "type": "string",
+                        "x-taplo": {
+                            "main": "Override codename if the device has different codename in market (Optional)"
+                        }
+                    },
+                    "family": {
+                        "type": "string",
+                        "x-taplo": {
+                            "main": "The family that the device belong to"
+                        }
+                    },
+                    "maintained": {
+                        "type": "boolean",
+                        "x-taplo": {
+                            "main": "Whether the device are still maintained or not",
+                            "enumValues": [
+                                "Maintained",
+                                "Unmaintained"
+                            ]
+                        }
+                    }
+                },
+                "required": [
+                    "family",
+                    "maintained"
+                ],
+                "additionalProperties": false
+            }
+        },
+        "family": {
+            "type": "object",
+            "propertyNames": {
+                "type": "string"
+            },
+            "additionalProperties": {
+                "type": "object",
+                "properties": {
+                    "brand": {
+                        "type": "string"
+                    },
+                    "furs": {
+                        "type": "array",
+                        "items": {
+                            "type": "string"
+                        }
+                    }
+                },
+                "required": [
+                    "brand",
+                    "furs"
+                ],
+                "additionalProperties": false
+            }
+        }
+    },
+    "required": [
+        "metadata",
+        "devices",
+        "family"
+    ],
+    "additionalProperties": false
+}

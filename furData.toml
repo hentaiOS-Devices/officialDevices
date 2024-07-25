@@ -1,112 +1,123 @@
-#:schema ./furDataSchema.json
-version = 1
-data_class = "AD:LANNELIV:xx/eo"
+#:schema ./schema/furDataSchema.jsonc
+[metadata]
+    version    = 2
+    data_class = "AD:LUXSOLIS:xv/fx"
+    signoff    = "core mensam crinitus furrure ad metadata"
+    arch       = "EXSTRUCTA DOCUMENTUM"
 
-[[devices]]
-name = "lmi"
-family = "gourami"
+[devices]
+# Lux Solis acts as a dummy entry for schema generation
+# Immutable; Do not edit this
+[devices.luxsolis]
+    brand_override    = "incommutabilis" # Optional
+    codename_override = "incommutabilis" # Optional
+    family            = "incommutabilis"
+    maintained        = true
 
-[[devices]]
-name = "apollo"
-brand_override = "Xiaomi"
-family = "gourami"
+[devices.lmi]
+    family     = "gourami"
+    maintained = true
 
-[[devices]]
-name = "alioth"
-family = "gourami"
+[devices.apollo]
+    brand_override = "Xiaomi"
+    family         = "gourami"
+    maintained     = true
 
-[[devices]]
-name = "munch"
-family = "gourami"
+[devices.alioth]
+    family     = "gourami"
+    maintained = true
 
-[[devices]]
-name = "crosshatch"
-family = "crosshatch"
+[devices.munch]
+    family     = "gourami"
+    maintained = true
 
-[[devices]]
-name = "blueline"
-family = "crosshatch"
+[devices.crosshatch]
+    family     = "crosshatch"
+    maintained = true
 
-[[devices]]
-name = "bluejay"
-family = "brooklyn"
+[devices.blueline]
+    family     = "crosshatch"
+    maintained = true
 
-[[devices]]
-name = "oriole"
-family = "brooklyn"
+[devices.bluejay]
+    family     = "brooklyn"
+    maintained = true
 
-[[devices]]
-name = "raven"
-family = "brooklyn"
+[devices.oriole]
+    family     = "brooklyn"
+    maintained = true
 
-[[devices]]
-name = "cheetah"
-family = "chelsea"
+[devices.raven]
+    family     = "brooklyn"
+    maintained = true
 
-[[devices]]
-name = "panther"
-family = "chelsea"
+[devices.cheetah]
+    family     = "chelsea"
+    maintained = true
 
-[[devices]]
-name = "lynx"
-family = "chelsea"
+[devices.panther]
+    family     = "chelsea"
+    maintained = true
 
-[[devices]]
-name = "amogus"
-family = "amogus"
+[devices.lynx]
+    family     = "chelsea"
+    maintained = true
 
-[[devices]]
-name = "whyred"
-family = "bouquet"
+[devices.amogus]
+    family     = "amogus"
+    maintained = true
 
-[[devices]]
-name = "tulip"
-family = "bouquet"
+[devices.whyred]
+    family     = "bouquet"
+    maintained = true
 
-[[devices]]
-name = "miatoll"
-family = "miatoll"
+[devices.tulip]
+    family     = "bouquet"
+    maintained = true
 
-[[devices]]
-name = "eqs"
-family = "hanif"
+[devices.miatoll]
+    family     = "miatoll"
+    maintained = true
 
-[[furries]]
-family = "gourami"
-brand = "POCO"
-furs = ["Raphielscape", "Dyneteve", "obsecenlyvague"]
+[devices.eqs]
+    family     = "hanif"
+    maintained = true
 
-[[furries]]
-family = "crosshatch"
-brand = "Google"
-furs = ["mattDev0"]
+[family]
+# Lux Solis dummy entry for schema generation
+# Immutable; Do not edit this
+[family.incommutabilis]
+    brand = "incommutabilis"
+    furs  = ["incommutabilis"]
 
-[[furries]]
-family = "amogus"
-brand = "Motorola"
-furs = ["Electimon"]
+[family.gourami]
+    brand = "POCO"
+    furs  = ["Raphielscape", "Dyneteve", "obsecenlyvague"]
 
-[[furries]]
-family = "bouquet"
-brand = "Xiaomi"
-furs = ["Reinazhard"]
+[family.crosshatch]
+    brand = "Google"
+    furs  = ["mattDev0"]
 
-[[furries]]
-family = "miatoll"
-brand = "Xiaomi"
-furs = ["mi33rx"]
+[family.amogus]
+    brand = "Motorola"
+    furs  = ["Electimon"]
 
-[[furries]]
-family = "hanif"
-brand = "Motorola"
-furs = ["VerpaSRP"]
+[family.bouquet]
+    brand = "Xiaomi"
+    furs  = ["Reinazhard"]
 
-[[furries]]
-family = "brooklyn"
-brand = "Google"
-furs = ["Dyneteve", "Lunarixus"]
+[family.miatoll]
+    brand = "Xiaomi"
+    furs  = ["mi33rx"]
 
-[[furries]]
-family = "chelsea"
-brand = "Google"
-furs = ["Dyneteve", "Lunarixus"]
+[family.hanif]
+    brand = "Motorola"
+    furs  = ["VerpaSRP"]
+
+[family.brooklyn]
+    brand = "Google"
+    furs  = ["Dyneteve", "Lunarixus"]
+
+[family.chelsea]
+    brand = "Google"
+    furs  = ["Dyneteve", "Lunarixus"]

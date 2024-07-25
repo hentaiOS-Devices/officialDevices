@@ -1,0 +1,14 @@
+{
+    "evenBetterToml.formatter.alignComments": true,
+    "evenBetterToml.formatter.alignEntries": true,
+    "evenBetterToml.formatter.allowedBlankLines": 2,
+    "evenBetterToml.formatter.arrayAutoCollapse": true,
+    "evenBetterToml.formatter.arrayAutoExpand": true,
+    "evenBetterToml.formatter.arrayTrailingComma": true,
+    "evenBetterToml.formatter.columnWidth": 80,
+    "evenBetterToml.formatter.indentEntries": true,
+    "evenBetterToml.schema.associations": {
+        "furData.toml": "file://schema/furDataSchema.jsonc",
+        "changelogData.toml": "file://schema/changelogDataSchema.jsonc"
+    }
+}
