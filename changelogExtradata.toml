@@ -14,10 +14,10 @@
 
 [changelog-extras.common.dogfood-discuss]
     header         = "dogfood-feedback@"
-    data           = "xFs6haRbvDLA5qGnyjnakmOrjjFKybno4jAPizRdwNKs0eDBtWzCYTIsqCZrx4gI1dBYaC7FDUusiQx1kLp9QXs3mFXynhzmA84cPmbr1Bu-76AL0SxpzlioYUKk"
+    data           = "3zDxR41CjuOjKAKizCVdQtPcgPfYS5ywCSaK3xwLhdyxfkmDlvee8cpkDT82KQ8PG0_CqWedG7bFmeurWB9Mi8DIt-lnB9MpNoLVK_0xGXS4v-ss"
     data_encrypted = true
 
 [changelog-extras.common.dogfood-info]
     header         = "go/operators"
-    data           = "15xwUuvkXJZ0qYnF-FBdsLmyvBmr6W2GnnViIME_e0-JS851xf1VEDYl"
+    data           = "R0jqhqIDux8yDtKVQDEKD4Shgslziq2Zb0aq6v2ZNNIBrFqzr5WEPp0"
     data_encrypted = true
