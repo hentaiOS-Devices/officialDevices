@@ -6,11 +6,9 @@
 
 [changelog-extras]
 [changelog-extras.common]
-    early_access_header    = "our Patreon!"
-    early_access_url       = "https://patreon.com/hentaiOS"
-    community_discuss      = "https://t.me/hentaiOSchat"
-    dogfood_discuss_header = "dogfood-feedback@"
-    dogfood_info           = "go/biteof87"
+    early_access_header = "our Patreon!"
+    early_access_url    = "https://patreon.com/hentaiOS"
+    community_discuss   = "https://t.me/hentaiOSchat"
 
 [changelog-extras.common.dogfood-discuss]
     header         = "dogfood-feedback@"
