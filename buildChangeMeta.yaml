@@ -9,3 +9,5 @@ build_rel:
     type: ursamoon-early-dogfood
   - tag: UP1A.231005.007
     type: ursamoon
+  - tag: AP3A.240905.015.A2
+    type: vallhound
