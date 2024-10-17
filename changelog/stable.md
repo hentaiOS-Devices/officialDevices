@@ -1,3 +1,6 @@
-Improve the stability of your device ({{device}}).
+---
+changelog_type: stable
+---
+Improve the stability of your device ({{.device_model}}).
 
-This update fixes critical bugs and improves the performance and security of your device. Learn more at [{{common.community_discuss}}]({{common.community_discuss}}).
+This update fixes critical bugs and improves the performance and security of your device. Learn more at [https://t.me/hentaiOSchat](https://t.me/hentaiOSchat).

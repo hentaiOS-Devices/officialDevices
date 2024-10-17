@@ -1,3 +1,6 @@
-This update will install a Patron-only version of helluvaOS {{release_name}} ({{tag}}) with {{security_patch_date}} security patch, fixes critical bugs and improves the performance and stability of your {{device}}.
+---
+changelog_type: patron
+---
+This update will install a Patron-only version of helluvaOS {{.release_name}} ({{.tag}}) with {{.security_patch_date}} security patch, fixes critical bugs and improves the performance and stability of your {{.device_model}}.
 
-To learn more about the helluvaOS Early Access Program, visit [{{common.early_access_header}}]({{common.early_access_url}})
+To learn more about the helluvaOS Early Access Program, visit [our Patreon!](https://patreon.com/hentaiOS)
