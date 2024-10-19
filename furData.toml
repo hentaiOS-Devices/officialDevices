@@ -63,6 +63,22 @@
     family     = "chelsea"
     maintained = true
 
+[devices.husky]
+    family     = "newbury"
+    maintained = true
+
+[devices.shiba]
+    family     = "newbury"
+    maintained = true
+
+[devices.akita]
+    family     = "newbury"
+    maintained = true
+
+[devices.fogos]
+    family     = "fogos"
+    maintained = true
+
 [devices.amogus]
     family     = "amogus"
     maintained = true
@@ -121,3 +137,11 @@
 [family.chelsea]
     brand = "Google"
     furs  = ["Dyneteve", "Lunarixus"]
+
+[family.newbury]
+    brand = "Google"
+    furs  = ["Dyneteve"]
+
+[family.fogos]
+    brand = "Motorola"
+    furs  = ["XxxVishalxxX"]
