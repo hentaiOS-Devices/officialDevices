@@ -76,7 +76,11 @@
     maintained = true
 
 [devices.fogos]
-    family     = "fogos"
+    family     = "sedona"
+    maintained = true
+    
+[devices.bangkk]
+    family     = "sedona"
     maintained = true
 
 [devices.amogus]
@@ -142,6 +146,6 @@
     brand = "Google"
     furs  = ["Dyneteve"]
 
-[family.fogos]
+[family.sedona]
     brand = "Motorola"
     furs  = ["XxxVishalxxX"]
