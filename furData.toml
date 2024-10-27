@@ -85,23 +85,23 @@
 
 [devices.amogus]
     family     = "amogus"
-    maintained = true
+    maintained = false
 
 [devices.whyred]
     family     = "bouquet"
-    maintained = true
+    maintained = false
 
 [devices.tulip]
     family     = "bouquet"
-    maintained = true
+    maintained = false
 
 [devices.miatoll]
     family     = "miatoll"
-    maintained = true
+    maintained = false
 
 [devices.eqs]
     family     = "hanif"
-    maintained = true
+    maintained = false
 
 [family]
 # Lux Solis dummy entry for schema generation
