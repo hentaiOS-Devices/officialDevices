@@ -1,0 +1,21 @@
+[[showstopper]]
+    comment                = "This catnip ain't shi-"
+    codename               = "raven"
+    pre_build_incremental  = "24102515"
+    post_build_incremental = "24110116"
+    security_patch_date    = "2024-10-05"
+    womp_womp              = "Snapshot failure during OTA"
+[[showstopper]]
+    comment                = "Up to 21°C"
+    codename               = "bluejay"
+    pre_build_incremental  = "24102515"
+    post_build_incremental = "24110116"
+    security_patch_date    = "2024-10-05"
+    womp_womp              = "Snapshot failure during OTA"
+[[showstopper]]
+    comment                = "wise mystical magical wizard fish said that among us is real"
+    codename               = "oriole"
+    pre_build_incremental  = "24102515"
+    post_build_incremental = "24110116"
+    security_patch_date    = "2024-10-05"
+    womp_womp              = "Snapshot failure during OTA"
