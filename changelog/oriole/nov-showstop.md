@@ -11,6 +11,6 @@ We identified a critical issue with this update due to Snapshot failure during O
 - This update can no longer be served through Over The Air
 - Will only be available through Sideload
 
-Please download the update from [Download Page for Regular Channel](https://get.hentaios.com/latestbuild?codename={{codename}}) or [Download Page for Patron Channel](https://get.hentaios.com/latestbuild?codename={{codename}}&patreon=true)
+Please download the update from [Download Page for Regular Channel](https://get.hentaios.com/latestbuild?codename={.{codename}}) or [Download Page for Patron Channel](https://get.hentaios.com/latestbuild?codename={{.codename}}&patreon=true)
 
 Yeah, [Womp Womp.](https://music.youtube.com/watch?v=FnbRek-NuT4)
