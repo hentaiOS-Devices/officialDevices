@@ -19,21 +19,3 @@
     post_build_incremental = "24110116"
     security_patch_date    = "2024-10-05"
     womp_womp              = "Snapshot failure during OTA"
-[[showstopper]]
-    comment               = "I don't gyatt a lot for chrizzmas"
-    codename              = "raven"
-    pre_build_incremental = "24110116"
-    security_patch_date   = "2024-10-05"
-    womp_womp             = "Snapshot failure during OTA"
-[[showstopper]]
-    comment               = "wan!"
-    codename              = "bluejay"
-    pre_build_incremental = "24110116"
-    security_patch_date   = "2024-10-05"
-    womp_womp             = "Snapshot failure during OTA"
-[[showstopper]]
-    comment               = "sludgecrank"
-    codename              = "oriole"
-    pre_build_incremental = "24110116"
-    security_patch_date   = "2024-10-05"
-    womp_womp             = "Snapshot failure during OTA"
