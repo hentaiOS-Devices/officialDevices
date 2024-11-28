@@ -83,6 +83,14 @@
     family     = "sedona"
     maintained = true
 
+[devices.penang]
+    family     = "sedona"
+    maintained = true
+    
+[devices.rhodep]
+    family     = "sedona"
+    maintained = true
+
 [devices.amogus]
     family     = "amogus"
     maintained = false
