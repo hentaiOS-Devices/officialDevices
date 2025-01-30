@@ -89,11 +89,18 @@
                         "items": {
                             "type": "string"
                         }
+                    },
+                    "tg_support_chat": {
+                        "type": "string",
+                        "x-taplo": {
+                            "main": "Support Channel on Telegram"
+                        }
                     }
                 },
                 "required": [
                     "brand",
-                    "furs"
+                    "furs",
+                    "tg_support_chat"
                 ],
                 "additionalProperties": false
             }

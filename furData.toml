@@ -78,7 +78,7 @@
 [devices.fogos]
     family     = "sedona"
     maintained = true
-    
+
 [devices.bangkk]
     family     = "sedona"
     maintained = true
@@ -86,7 +86,7 @@
 [devices.penang]
     family     = "sedona"
     maintained = true
-    
+
 [devices.rhodep]
     family     = "sedona"
     maintained = true
@@ -115,20 +115,23 @@
 # Lux Solis dummy entry for schema generation
 # Immutable; Do not edit this
 [family.incommutabilis]
-    brand = "incommutabilis"
-    furs  = ["incommutabilis"]
+    brand           = "incommutabilis"
+    furs            = ["incommutabilis"]
+    tg_support_chat = "incommutabilis"
 
 [family.gourami]
-    brand = "POCO"
-    furs  = ["Raphielscape", "Dyneteve", "obsecenlyvague"]
+    brand           = "POCO"
+    furs            = ["Raphielscape", "Dyneteve", "obsecenlyvague"]
+    tg_support_chat = "https://t.me/hentaiOSkona"
 
 [family.crosshatch]
     brand = "Google"
     furs  = ["mattDev0"]
 
 [family.amogus]
-    brand = "Motorola"
-    furs  = ["Electimon"]
+    brand           = "Motorola"
+    furs            = ["Electimon"]
+    tg_support_chat = "https://t.me/hentaiOSamogus"
 
 [family.bouquet]
     brand = "Xiaomi"
@@ -143,17 +146,21 @@
     furs  = ["VerpaSRP"]
 
 [family.brooklyn]
-    brand = "Google"
-    furs  = ["Dyneteve", "Lunarixus"]
+    brand           = "Google"
+    furs            = ["Dyneteve", "Lunarixus"]
+    tg_support_chat = "https://t.me/hentaiOSRaviole"
 
 [family.chelsea]
-    brand = "Google"
-    furs  = ["Dyneteve", "Lunarixus"]
+    brand           = "Google"
+    furs            = ["Dyneteve", "Lunarixus"]
+    tg_support_chat = "https://t.me/hentaiOSRaviole"
 
 [family.newbury]
-    brand = "Google"
-    furs  = ["Dyneteve"]
+    brand           = "Google"
+    furs            = ["Dyneteve"]
+    tg_support_chat = "https://t.me/hentaiOSRaviole"
 
 [family.sedona]
-    brand = "Motorola"
-    furs  = ["XxxVishalxxX", "lahaina"]
+    brand           = "Motorola"
+    furs            = ["XxxVishalxxX", "lahaina"]
+    tg_support_chat = "https://t.me/hentaiOSRaviole"
