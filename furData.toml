@@ -1,8 +1,8 @@
 #:schema ./schema/furDataSchema.jsonc
 [metadata]
-    version    = 2
-    data_class = "AD:LUXSOLIS:xv/fx"
-    signoff    = "core mensam crinitus furrure ad metadata"
+    version    = 3
+    data_class = "AD:ASTE*RISK:xv/xe"
+    signoff    = "HARMONY in CHAOS"
     arch       = "EXSTRUCTA DOCUMENTUM"
 
 [devices]
@@ -125,8 +125,9 @@
     tg_support_chat = "https://t.me/hentaiOSkona"
 
 [family.crosshatch]
-    brand = "Google"
-    furs  = ["mattDev0"]
+    brand           = "Google"
+    furs            = ["mattDev0"]
+    tg_support_chat = ""
 
 [family.amogus]
     brand           = "Motorola"
@@ -134,16 +135,19 @@
     tg_support_chat = "https://t.me/hentaiOSamogus"
 
 [family.bouquet]
-    brand = "Xiaomi"
-    furs  = ["Reinazhard"]
+    brand           = "Xiaomi"
+    furs            = ["Reinazhard"]
+    tg_support_chat = ""
 
 [family.miatoll]
-    brand = "Xiaomi"
-    furs  = ["mi33rx"]
+    brand           = "Xiaomi"
+    furs            = ["mi33rx"]
+    tg_support_chat = ""
 
 [family.hanif]
-    brand = "Motorola"
-    furs  = ["VerpaSRP"]
+    brand           = "Motorola"
+    furs            = ["VerpaSRP"]
+    tg_support_chat = ""
 
 [family.brooklyn]
     brand           = "Google"

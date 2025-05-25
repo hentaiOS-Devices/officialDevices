@@ -1,5 +1,6 @@
 ---
-codename: fogos
+codename:
+    - fogos
 changelog_type: stable
 ---
 Improve the stability of your device ({{.device_name}}).
